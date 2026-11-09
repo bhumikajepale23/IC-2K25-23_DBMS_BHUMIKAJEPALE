@@ -1,0 +1,8 @@
+-- 6. Write a query to get the highest, lowest, sum, and average salary of all employees.
+mysql> select max(salary), min(salary), avg(salary), sum(salary) from employees;
++-------------+-------------+--------------------+-------------+
+| max(salary) | min(salary) | avg(salary)        | sum(salary) |
++-------------+-------------+--------------------+-------------+
+|      900000 |        4500 | 194626.66666666666 |     2919400 |
++-------------+-------------+--------------------+-------------+
+1 row in set (0.00 sec)
