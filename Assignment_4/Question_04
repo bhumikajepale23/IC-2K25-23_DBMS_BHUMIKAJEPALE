@@ -1,0 +1,12 @@
+-- 4. Write a query to get the maximum salary of an employee working as a Programmer.
+mysql> select max(salary) as "maximum salary" from employees where job_id = "programmer";
++----------------+
+| maximum salary |
++----------------+
+|          11000 |
++----------------+
+1 row in set (0.00 sec)
+
+mysql> update employees set dep_id = 90 where dep_id = 100;
+Query OK, 3 rows affected (0.01 sec)
+Rows matched: 3  Changed: 3  Warnings: 0
