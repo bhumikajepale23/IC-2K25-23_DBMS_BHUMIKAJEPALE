@@ -1,0 +1,10 @@
+mysql> select dep_id, sum(salary) from employees group by dep_id;
++--------+-------------+
+| dep_id | sum(salary) |
++--------+-------------+
+|     30 |     1512500 |
+|     70 |      986900 |
+|     85 |      345000 |
+|     90 |       75000 |
++--------+-------------+
+4 rows in set (0.00 sec)
