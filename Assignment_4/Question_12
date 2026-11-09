@@ -1,0 +1,12 @@
+mysql> select job_id, max(salary) from employees group by job_id having max(salary) >= 4000;
++-------------+-------------+
+| job_id      | max(salary) |
++-------------+-------------+
+| programmer  |       11000 |
+| manager     |      900000 |
+| team leader |       90000 |
+| intern      |        7000 |
+| supervisor  |      500000 |
+| sh_clerk    |        9000 |
++-------------+-------------+
+6 rows in set (0.03 sec)
