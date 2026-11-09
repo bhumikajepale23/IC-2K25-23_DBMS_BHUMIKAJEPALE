@@ -1,0 +1,8 @@
+mysql> select min(salary),max(SALAry), avg(salary), sum(salary) from employees where dep_id = 90 group by job_id;
++-------------+-------------+-------------+-------------+
+| min(salary) | max(SALAry) | avg(salary) | sum(salary) |
++-------------+-------------+-------------+-------------+
+|       60000 |       60000 |       60000 |       60000 |
+|        6000 |        9000 |        7500 |       15000 |
++-------------+-------------+-------------+-------------+
+2 rows in set (0.03 sec)
