@@ -1,0 +1,13 @@
+-- 7. Write a query to get the number of employees with the same job.
+mysql> select job_id, count(*) from employees group by job_id;
++-------------+----------+
+| job_id      | count(*) |
++-------------+----------+
+| programmer  |        2 |
+| manager     |        3 |
+| team leader |        2 |
+| intern      |        3 |
+| supervisor  |        3 |
+| sh_clerk    |        2 |
++-------------+----------+
+6 rows in set (0.00 sec)
