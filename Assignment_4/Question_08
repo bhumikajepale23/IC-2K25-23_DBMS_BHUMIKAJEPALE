@@ -1,0 +1,8 @@
+--8. Write a query to get the difference between the highest and lowest salaries.
+mysql> select max(salary)-min(salary) from employees;
++-------------------------+
+| max(salary)-min(salary) |
++-------------------------+
+|                  895500 |
++-------------------------+
+1 row in set (0.03 sec)
