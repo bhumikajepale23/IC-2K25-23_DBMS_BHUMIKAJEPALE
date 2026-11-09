@@ -1,0 +1,8 @@
+-- 2. Write a query to get the total salaries payable to employees
+mysql> select sum(salary) as "salary payble"from employees;
++---------------+
+| salary payble |
++---------------+
+|       2919400 |
++---------------+
+1 row in set (0.00 sec)
