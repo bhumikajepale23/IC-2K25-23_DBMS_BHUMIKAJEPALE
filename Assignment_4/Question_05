@@ -1,0 +1,8 @@
+-- 5. Write a query to get the average salary and number of employees working the department 90.
+mysql> select avg(salary) as "average salary", count(*) from employees where dep_id = 90;
++----------------+----------+
+| average salary | count(*) |
++----------------+----------+
+|          25000 |        3 |
++----------------+----------+
+1 row in set (0.00 sec)
