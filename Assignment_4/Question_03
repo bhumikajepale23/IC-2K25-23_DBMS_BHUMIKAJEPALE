@@ -1,0 +1,8 @@
+-- 3. Write a query to get the minimum salary from employees table.
+mysql> select min(salary) as " minimum salary"from employees;
++----------------+
+| minimum salary |
++----------------+
+|           4500 |
++----------------+
+1 row in set, 1 warning (0.00 sec)
