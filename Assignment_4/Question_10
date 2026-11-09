@@ -1,0 +1,11 @@
+mysql> select avg(salary) from employees where job_id <> "programmer" group by job_id;
++-------------------+
+| avg(salary)       |
++-------------------+
+| 613333.3333333334 |
+|             85000 |
+|              6300 |
+| 286666.6666666667 |
+|              7500 |
++-------------------+
+5 rows in set (0.03 sec)
